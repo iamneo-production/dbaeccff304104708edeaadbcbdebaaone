@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import CMS from './components/CMS';
-import CourseList from './components/CourseList';
-import CourseForm from './components/CourseForm';
+import CMS from '../components/CMS';
+import CourseList from '../components/CourseList';
+import CourseForm from '../components/CourseForm';
 
 describe("Course_Management_System", () => {
   test("renders_CMS_component", () => {
